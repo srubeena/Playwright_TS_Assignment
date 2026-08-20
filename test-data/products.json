@@ -1,0 +1,6 @@
+[
+  { "productName": "ZARA COAT 3", "expectedInCart": true },
+  { "productName": "IPHONE 13 PRO", "expectedInCart": true },
+  { "productName": "ADIDAS ORIGINAL", "expectedInCart": true },
+  { "productName": "NON EXISTENT PRODUCT", "expectedInCart": false }
+]
