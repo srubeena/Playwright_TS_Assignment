@@ -30,6 +30,7 @@ test.describe('Orders History Page - Mock Data (JSON)', () => {
 
                 logStep('Fetching displayed order ID');
                 const displayedOrderId = await ordersHistoryPage.getOrderId();
+                console.log("displayedOrderId: " + displayedOrderId);
 
                 expect(displayedOrderId).toContain(orderId);
             } catch (error) {

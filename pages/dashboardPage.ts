@@ -12,7 +12,8 @@ class DashboardPage {
     this.products = page.locator(".card-body");
     this.productsText = page.locator(".card-body b");
     this.cart = page.locator("[routerlink*='cart']");
-    this.orders = page.locator("button[routerlink*='myorders']");
+    //this.orders = page.locator("button[routerlink*='myorders']");
+    this.orders = page.locator("//button[contains(@routerlink, 'myorders')]")
   }
 
   async searchProductAddCart(productName: string): Promise<void> {
