@@ -10,7 +10,8 @@ class OrdersHistoryPage {
     this.page = page;
     this.ordersTable = page.locator("tbody");
     this.rows = page.locator("tbody tr");
-    this.orderdIdDetails = page.locator(".col-text");
+    this.orderdIdDetails = page.locator("//div[@class='col-text -main']");
+    //page.locator(".col-text");
   }
 
   async searchOrderAndSelect(orderId: string){
